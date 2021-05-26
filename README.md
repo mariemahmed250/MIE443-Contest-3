@@ -1,4 +1,9 @@
-# MIE443-Contest-3
+Group 4
+Kevin Han - 1003488870
+Katrina Cecco - 1003145615
+Anh Kiet Nguyen - 1002901210
+Mariem Ahmed - 1003269688
+Wenhan Jiang - 1003065274
 
 Contest 3 - Finding and Interacting with Emotional People in an Unknown Environment
 
@@ -63,6 +68,7 @@ Notes:
 - explore.cpp has been changed to publish to a topic where contest3.cpp can sense when the frontier exploration has stopped, and if it is near the beginning of the exploration (has not found any victims), it treats the frontier algorithm as stuck (common error discussed in piazza) and does a small circle around the spot to scan more of the environment until frontier exploration gains momentum and enough map scan where it won't run into any more of the issues near the start.
 
 - emotionTrainingSample.py has our optimized CNN training algorithm with various strategies explored as explained in the report.
+Lines 78, 80, and 200 contain addresses to directories we used in Google Colab training. They must be updated accordingly by the TA in order to run the training code on another system.
 
 - mdl_best.pth is the optimized model trained by emotionTrainingSample.py
 
